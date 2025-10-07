@@ -71,7 +71,7 @@ async function searchParts() {
     dialog("少なくとも一つのパーツを入力してください。");
     return;
   }
-  var url = "https://syari.onrender.com/search/parts/" + parts;
+  var url = "https://syari-api.onrender.com/search/parts/" + parts;
   console.log(typeof(parts));
   console.log(url);
 
@@ -135,7 +135,7 @@ async function searchParts() {
 
 async function searchReading() {
   const inputValue = document.getElementById("reading-input").value.trim();
-  const filename = '/data'; // エンドポイントを更新
+  const filename = 'https://syari-api.onrender.com/data'; // エンドポイントを更新
 
   try {
     const response = await fetch(filename);
@@ -208,7 +208,7 @@ async function searchReading() {
 
 async function searchJapanese() {
   const inputValue = document.getElementById("japanese-input").value.trim();
-  const filename = '/data'; // エンドポイントを更新
+  const filename = 'https://syari-api.onrender.com/data'; // エンドポイントを更新
 
   try {
     const response = await fetch(filename);
