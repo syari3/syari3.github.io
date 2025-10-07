@@ -47,7 +47,7 @@ function toggleCompleted(id) {
 
 async function loadMaterials() {
   try {
-    const response = await fetch('/kap-materials.json');
+    const response = await fetch('https://syari-api.onrender.com/kap-materials.json');
     if (!response.ok) {
       throw new Error('資料データの読み込みに失敗しました');
     }
