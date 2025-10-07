@@ -187,7 +187,7 @@ async function searchKapReading() {
     return;
   }
   
-  const filename = '/kap-data.json';
+  const filename = 'https://syari-api.onrender.com/kap-data.json';
 
   try {
     const response = await fetch(filename);
@@ -224,7 +224,7 @@ async function searchKapJapanese() {
     return;
   }
   
-  const filename = '/kap-data.json';
+  const filename = 'https://syari-api.onrender.com/kap-data.json';
 
   try {
     const response = await fetch(filename);
