@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>カプ語検索  - ⁂しゃりー⁂ じっ すりしゃ</title>
+    <meta
+      name="description"
+      content="kap語の検索ページです。"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      #result-container h3 {
+        font-size: clamp(1.5rem, 4vw, 2rem);
+      }
+      
+      #reading-input,
+      #japanese-input {
+        font-size: clamp(1.1rem, 3vw, 1.4rem);
+      }
+
+      #main-content {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+      }
+
+      #result-container {
+        flex: 1;
+        transition: all 0.3s ease;
+      }
+
+      .detail-panel {
+        flex: 1;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        animation: slideInRight 0.3s ease-out;
+        max-height: 80vh;
+        overflow-y: auto;
+      }
+
+      .back-button {
+        display: none;
+        background: linear-gradient(135deg, #03A9F4 0%, #0288D1 100%);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+      }
+
+      .back-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(3, 169, 244, 0.3);
+      }
+
+      .result-item {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+        width: 100%;
+        max-width: 500px;
+        box-sizing: border-box;
+      }
+
+      .result-item:hover {
+        background: rgba(255, 255, 255, 1);
+        border-color: #03A9F4;
+        transform: translateX(5px);
+        box-shadow: 0 5px 15px rgba(3, 169, 244, 0.2);
+      }
+
+      .result-item.selected {
+        border-color: #0288D1;
+        background: linear-gradient(135deg, rgba(227, 242, 253, 0.5) 0%, rgba(255, 255, 255, 1) 100%);
+      }
+
+      .result-word {
+        font-family: "kap-alphabet", "kap-original", "honokadaze";
+        font-size: 1.3rem;
+        color: #0288D1;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .result-meaning {
+        color: #666;
+        font-size: 1rem;
+      }
+
+      .detail-word {
+        font-family: "kap-alphabet", "kap-original", "honokadaze";
+        font-size: 2rem;
+        color: #0288D1;
+        margin-bottom: 20px;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+      }
+
+      .detail-word:hover::after {
+        content: "クリックでコピー";
+        position: absolute;
+        top: -25px;
+        left: 0;
+        font-size: 0.7rem;
+        color: #666;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 3px 8px;
+        border-radius: 5px;
+        white-space: nowrap;
+      }
+
+      .detail-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      .detail-table tr {
+        border-bottom: 1px solid #E3F2FD;
+      }
+
+      .detail-table td {
+        padding: 15px 10px;
+        vertical-align: top;
+      }
+
+      .detail-table td:first-child {
+        font-weight: bold;
+        color: #0288D1;
+        width: 100px;
+        white-space: nowrap;
+      }
+
+      .detail-table td:last-child {
+        color: #333;
+      }
+
+      .example-item {
+        padding: 12px;
+        margin-bottom: 8px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+      }
+
+      .example-item:nth-child(odd) {
+        background: rgba(227, 242, 253, 0.3);
+      }
+
+      .example-item:nth-child(even) {
+        background: rgba(255, 255, 255, 0.3);
+      }
+
+      .example-kapu {
+        font-family: "kap-alphabet", "kap-original", "honokadaze";
+        font-size: 1.15rem;
+        color: #0288D1;
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+
+      .example-japanese {
+        color: #666;
+        font-size: 0.95rem;
+        padding-left: 15px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+
+      .example-japanese.show {
+        max-height: 100px;
+      }
+
+      .copy-notification {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #4CAF50;
+        color: white;
+        padding: 15px 25px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        animation: slideInNotification 0.3s ease-out;
+        z-index: 1000;
+      }
+
+      @keyframes slideInRight {
+        from {
+          opacity: 0;
+          transform: translateX(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes slideInNotification {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 767px) {
+        #main-content {
+          flex-direction: column;
+        }
+
+        #result-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        #result-container.hide-mobile {
+          display: none;
+        }
+
+        .detail-panel {
+          width: 100%;
+        }
+
+        .back-button {
+          display: inline-block;
+        }
+
+        .detail-word {
+          font-size: 1.5rem;
+        }
+      }
+
+      @media (min-width: 768px) {
+        #main-content {
+          flex-direction: row;
+        }
+
+        .back-button {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dialog-cover">
+      <div id="dialog">
+        <p id="message"></p>
+        <button id="dialog-btn">閉じる</button>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="center">kap語検索</h2>
+      <div class="center" style="margin-top: 10px;">
+        <a href="/kap" style="color: #0288D1; text-decoration: none; font-size: 1rem; transition: color 0.3s;">← kap語ホームに戻る</a>
+      </div>
+    </div>
+    <div class="radio-container">
+      <div id="search-type2">
+        <input type="radio" id="reading-radio" name="search-type" onclick="switchSearchType()">
+        <label for="reading-radio">kap語</label>　
+      </div>
+      <div id="search-type3">
+        <input type="radio" id="japanese-radio" name="search-type" onclick="switchSearchType()">
+        <label for="japanese-radio">日本語</label>
+      </div>
+    </div>
+    <div class="container" id="reading" style="display: none;">
+      <input type="text" id="reading-input" placeholder="kap語を入力してください">
+    </div>
+    <div class="container" id="japanese" style="display: none;">
+      <input type="text" id="japanese-input" placeholder="日本語を入力してください">
+    </div>
+    <div class="container" >
+      <button class="search-button" onclick="searchKap()">検索！</button>
+    </div>
+    <br>
+    <div id="main-content">
+      <div id="result-container" class="container"></div>
+      <div id="detail-panel" class="detail-panel" style="display: none;">
+        <button id="back-button" class="back-button" onclick="closeDetail()">← 戻る</button>
+        <div id="detail-content"></div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+    <script src="/kap-search.js"></script>
+  </body>
+</html>
