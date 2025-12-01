@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>シャリタツ語検索 - ⁂しゃりー⁂ じっ すりしゃ</title>
+    <meta
+      name="description"
+      content="⁂しゃりー⁂の個人サイトです。シャリタツ語の解説をしています。"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="GBx347Vks6RMKjQ1H2ZbCWXniUB-TbQjPo4PqUCM1qc" />
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/syaritatsu/syari.css" />
+  </head>
+  <body>
+    <div id="dialog-cover">
+      <div id="dialog">
+        <p id="message"></p>
+        <button id="dialog-btn">閉じる</button>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="center">シャリタツ語<wbr>文字検索</h2>
+      <div class="center" style="margin-top: 10px;">
+        <a href="/syaritatsu" style="color: #0288D1; text-decoration: none; font-size: 1rem; transition: color 0.3s;">← シャリタツ語ホームに戻る</a>
+      </div>
+    </div>
+    <div class="radio-container">
+      <div id="search-type1">
+        <input type="radio" id="syari-radio" name="search-type" onclick="switchSearchType()" checked>
+        <label for="syari-radio">シャリタツ文字</label>　
+      </div>
+      <div id="search-type2">
+        <input type="radio" id="reading-radio" name="search-type" onclick="switchSearchType()">
+        <label for="reading-radio">読み</label>　
+      </div>
+      <div id="search-type3">
+        <input type="radio" id="japanese-radio" name="search-type" onclick="switchSearchType()">
+        <label for="japanese-radio">日本語(ベータ版)</label>
+      </div>
+    </div>
+    <div class="container" id="syari">
+      <div class="box" id="target">
+        <img src="/bigimg/s@8x.png" id="image1" class="image">
+        <img src="/bigimg/ms@8x.png" id="image2" class="image">
+        <img src="/bigimg/hs@8x.png" id="image3" class="image">
+        <img src="/bigimg/ts@8x.png" id="image4" class="image">
+        <img src="/bigimg/ns@8x.png" id="image5" class="image">
+        <img src="/bigimg/ss@8x.png" id="image6" class="image">
+        <img src="/bigimg/m@8x.png" id="image7" class="image">
+        <img src="/bigimg/w@8x.png" id="image8" class="image">
+        <img src="/bigimg/u@8x.png" id="image9" class="image">
+        <img src="/bigimg/o1@8x.png" id="image10" class="image">
+        <img src="/bigimg/z1@8x.png" id="image11" class="image">
+        <img src="/bigimg/l@8x.png" id="image12" class="image">
+      </div>
+
+      <div class="box">
+        <img src="/img/s.png" alt="しゃり" class="sbox" id="btn1">
+        <img src="/img/ms.png" alt="もこ" class="sbox" id="btn2">
+        <img src="/img/hs.png" alt="はーふ" class="sbox" id="btn3">
+        <img src="/img/ts.png" alt="たれた" class="sbox" id="btn4">
+        <img src="/img/ns.png" alt="のびた" class="sbox" id="btn5">
+        <img src="/img/ss.png" alt="そった" class="sbox" id="btn6">
+        <img src="/img/m.png" alt="m" class="sbox" id="btn7">
+        <img src="/img/w.png" alt="w" class="sbox" id="btn8">
+        <img src="/img/u.png" alt="つ" class="sbox" id="btn9">
+        <img src="/img/o1.png" alt="め" class="sbox" id="btn10">
+        <img src="/img/z1.png" alt="いくら" class="sbox" id="btn11">
+        <img src="/img/l.png" alt="のり" class="sbox" id="btn12">
+      </div>
+    </div>
+    <div class="container" id="reading" style="display: none;">
+      <input type="text" id="reading-input" placeholder="読みを入力してください">
+    </div>
+    <div class="container" id="japanese" style="display: none;">
+      <input type="text" id="syari-japanese-input" placeholder="日本語を入力してください">
+    </div>
+    <div class="container" >
+      <button class="search-button" onclick="search()">検索！</button>
+      <a href="" id="ss" download="syari.png">画像をダウンロードする</a>
+    </div>
+    <br>
+    <div id="result-container" class ="container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="/script.js"></script>
+    <script src="/search.js"></script>
+  </body>
+</html>

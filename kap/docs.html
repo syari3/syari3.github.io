@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>カプ語資料 - ⁂しゃりー⁂ じっ すりしゃ</title>
+    <meta
+      name="description"
+      content="⁂しゃりー⁂の個人サイトです。カプ語の資料を閲覧できます。"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/kap-docs.css" />
+  </head>
+  <body>
+    <div id="modal-overlay" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close" id="modal-close">&times;</button>
+        <img id="modal-image" src="" alt="資料画像">
+      </div>
+    </div>
+
+    <div class="docs-container">
+      <aside class="sidebar">
+        <h2 class="sidebar-title">カテゴリ</h2>
+        <div id="category-list" class="category-list">
+        </div>
+        
+        <h2 class="sidebar-title" style="margin-top: 20px;">フィルター</h2>
+        <div class="filter-list">
+          <div id="filter-favorites" class="filter-item">⭐ お気に入りのみ</div>
+          <div id="filter-completed" class="filter-item">✓ 読了済みのみ</div>
+          <div id="filter-uncompleted" class="filter-item">○ 未読了のみ</div>
+        </div>
+        
+        <button class="back-button" onclick="window.location.href='/kap'">カプ語ページに戻る</button>
+      </aside>
+
+      <main class="main-area">
+        <div class="header">
+          <h1 class="center">カプ語資料</h1>
+          <div class="controls">
+            <input type="text" id="search-input" class="search-input" placeholder="タイトルや説明で検索...">
+            <div class="sort-buttons">
+              <button id="sort-new" class="sort-button active">新しい順</button>
+              <button id="sort-old" class="sort-button">古い順</button>
+            </div>
+          </div>
+        </div>
+        
+        <div id="materials-grid" class="materials-grid">
+        </div>
+      </main>
+    </div>
+
+    <script src="/kap-docs.js"></script>
+  </body>
+</html>
