@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>グレ語翻訳 - ⁂しゃりー⁂ じっ すりしゃ</title>
+    <meta name="description" content="グレ語翻訳ページ" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/gule-style.css" />
+    <link rel="stylesheet" href="/gule-docs.css" />
+
+    <style>
+      .translator-box {
+        max-width: min(600px, 90vw);
+        margin: 30px auto;
+        padding: 25px;
+        background: linear-gradient(135deg, #FFFFFF 0%, #F0F8FF 100%);
+        border: 2px solid #B3E5FC;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(3, 169, 244, 0.15);
+        animation: fadeIn 0.8s ease-out;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 120px;
+        padding: 15px;
+        border: 2px solid #B3E5FC;
+        border-radius: 15px;
+        font-family: "gule-alphabet","honokadaze";
+        font-size: 16px;
+        margin-bottom: 20px;
+        resize: vertical;
+      }
+
+      textarea:focus {
+        outline: none;
+        border-color: #03A9F4;
+        box-shadow: 0 4px 15px rgba(3, 169, 244, 0.2);
+      }
+
+      .output-box {
+        margin-top: 20px;
+        padding: 15px;
+        background: rgba(255,255,255,0.8);
+        border-radius: 15px;
+        border: 2px solid #B3E5FC;
+        min-height: 60px;
+        white-space: pre-wrap;
+      }
+
+      .button-row {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+      }
+
+      .copy-notification {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #4CAF50;
+        color: white;
+        padding: 15px 25px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        animation: slideInNotification 0.3s ease-out;
+        z-index: 1000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 class="center">gule語検索</h2>
+      <div class="center" style="margin-top: 10px;">
+        <a href="/gule" style="color: #0288D1; text-decoration: none; font-size: 1rem; transition: color 0.3s;">← gule語ホームに戻る</a>
+      </div>
+    </div>
+    
+    <div class="translator-box">
+
+      <textarea id="input" placeholder="ここに日本語またはgule語を入力..."></textarea>
+
+    
+      <div class="button-row">
+        <button class="search-button" onclick="translateGule()">翻訳</button>
+      </div>
+
+      <div id="output" class="output-box"></div>
+
+    </div>
+
+    <h5 class="center">この翻訳機は一日に全ユーザー合計で500回しか使えません。使えなくなった場合、以下のプロンプトを他のAIに入力して翻訳してもらってください。</h5>
+    <div class="container">
+      <a class="center" id="prompt">クリックでコピー</a>
+    </div>
+    <script>
+      function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(() => {
+          showCopyNotification();
+        }).catch(err => {
+          console.error('コピーに失敗しました:', err);
+        });
+      }
+
+      function showCopyNotification() {
+        const notification = document.createElement('div');
+        notification.className = 'copy-notification';
+        notification.textContent = 'コピーしました！';
+        document.body.appendChild(notification);
+
+        setTimeout(() => {
+          notification.style.opacity = '0';
+          setTimeout(() => {
+            document.body.removeChild(notification);
+          }, 300);
+        }, 2000);
+      }
+      
+      async function translateGule() {
+        const text = document.getElementById("input").value;
+
+        let url = "https://gule-translate.grandioso-sow.workers.dev/"; // Gemini
+
+
+        document.getElementById("output").innerText = "翻訳中...";
+
+        const response = await fetch(url, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ text })
+        });
+
+        const data = await response.json();
+
+        document.getElementById("output").innerText = data.result;
+      }
+      document.getElementById("prompt").addEventListener('click', () => copyToClipboard(`あなたはグレイシア語の翻訳者です。
+                                                                                        ・説明は禁止
+                                                                                        ・グレイシア語が入力されていたら日本語に、日本語はグレイシア語に翻訳すること。
+                                                                                        ・直訳と意訳の両方が考えられる場合は、意訳 (直訳: ~~~)の形で答えること。 
+                                                                                        例: yesi su shao sha noryo kak shagi→ 信号機 (直訳: 道で色を話す機械)
+
+                                                                                        ■基本文法
+                                                                                        ・基本語順：A gu B（AがBする／AはBだ、文脈依存）
+                                                                                        ・目的語あり：A gu B sha C
+                                                                                        ・修飾：語を並べて左結合
+                                                                                        ・su：修飾の区切り（A B C→Cのような(BのようなA),A su B C→(CのようなB)のようなA）
+                                                                                        ・否定：否定したい語の直後に la（位置で意味差）
+                                                                                        ・疑問（Yes/No）：V la V（助動詞・前置詞も同型）
+                                                                                        ・疑問応答：V ／ V la
+                                                                                        ・疑問詞：woya（修飾で意味分化）文の形は変えず、聴きたいところをwoyaにかえる。
+                                                                                        ・並列「と」：主語＝on／主語以外＝gu・shaを複数
+                                                                                        ・選択「か」：elyu
+                                                                                        ・付加「も」：tso、tso shelyo
+                                                                                        ・限定・逆接：文頭 gaso＝「だけど」／〜 gaso＝「〜だけ」
+
+                                                                                        ■前置詞（意味語兼用）
+                                                                                        kak（存在・現実・〜に・〜で）
+                                                                                        rosha（動かす・〜へ・〜のために）
+                                                                                        wik（理由・〜から）
+                                                                                        yus（〜を使って・〜と）
+                                                                                        siha（同じ・似た・〜のような）
+
+                                                                                        ■助動詞(動詞として使われることもあるので注意)
+                                                                                        uhu（できる）
+                                                                                        newa（〜したい/が欲しい）
+                                                                                        soso（し続ける）
+                                                                                        tsero（し始める）
+                                                                                        hus（し終える）
+                                                                                        nyola（〜になる/来る、起こる、現れる）
+                                                                                        ula（〜しようとする／見る）
+                                                                                        hona（方法を知る／理解する）
+                                                                                        ・配置：動詞の前
+                                                                                        ・複数使用：動詞に近い順
+                                                                                        ・否定：最初の助動詞の直後に la
+
+                                                                                        ■命令・勧誘
+                                                                                        shea を文頭に使用（gu の代替）
+                                                                                        主語は shea の前
+                                                                                        勧誘：lesi ware shea V
+                                                                                        呼びかけ：shea 単体可
+                                                                                        感情強調：文末 na
+
+                                                                                        ■文脈構文
+                                                                                        shelyo：A shelyo B（AというコンテクストでB）
+                                                                                        ・時間：rik hus（過去）／rik shi（現在）／rik nyola（未来）
+                                                                                        ・視点・条件・推量・接続に使用可
+                                                                                        ・Aは不完全文可、Bは完全文推奨
+                                                                                        ・複数重ね可
+
+                                                                                        ■色表現
+                                                                                        基本色：sula（白）gogi（黒）lase（青）sale（赤）hiye（黄）
+                                                                                        ・su 無し：複数色が存在
+                                                                                        ・su 有り：混色結果
+
+                                                                                        ■数表現
+                                                                                        la＝0、yu＝1、ryu＝2、yori＝5、ware＝20、ri＝100
+                                                                                        ・修飾による加算、数は最優先結合、加算を表すときにsuは使わない。
+                                                                                        ・keki：〜番目
+
+                                                                                        ■指示語
+                                                                                        shi：これ／それ／あれ／この／その／あの
+
+                                                                                        ■主要語彙（抜粋・整理済み）
+                                                                                        lesi 私、tsali あなた、kyasi 彼/彼女、tsol 人、nawi 物/何か、lyash 動物
+                                                                                        rak 食べる/食べ物、koka 作る、sag 聞く、hyawa 良い/改善する、nonya 家
+                                                                                        gile 大きい、liye 小さい、ware 多い、とても
+                                                                                        la 否定、ula 見る、gasha 壊す、tsasa 殺す、tsokya 音を立てる
+                                                                                        lea 持つ、hona 知る、lani 魚、lyusi 水、kash 鳥、lihi 植物
+                                                                                        nasi 机/椅子、gutsi 石、gyuri 集まり、wari 穀物
+                                                                                        suse 半固体、nihi 親、rots 男、lyun 女、wosi 土地/国
+                                                                                        shal 紙/本、geni 汚れ、ish 上/空/神聖
+                                                                                        yag 悪、soya 眠る、shao 話す/言語
+                                                                                        rog 他の/違い、yesi 道具/機械/アプリ
+                                                                                        soki 名前/単語、yori 手、kini 体
+                                                                                        huli 果物/野菜、rena 月/星、sawi 太陽/光
+                                                                                        shuka 書く/描く、tsana 去る、wan 鳴く、ene 丸い
+                                                                                        gasi 追求する、ruha 爬虫類、shagi 道/方法
+                                                                                        rik 時間、laki 思考、wakya 楽しむ、glesh 愛する
+                                                                                        hyoa 与える/置く
+                                                                                        huhi 空気/精神/幽霊、gogi 黒、kili お金、neni 下
+                                                                                        kuno 虫、yai 長く柔軟な物/紐/リボン、kohu 容器、lsa そば/共に
+                                                                                        ror 内部、sale 赤、haha 火/熱、gotso 強い
+                                                                                        suwi 甘い、una 感じる/思う、kyakya イチャつく
+                                                                                        noryo 色、sula 白、hiye 黄、husia 皮膚
+                                                                                        nyuro 布/服、yu 1、kaki 戦い、kyala 取引/店
+                                                                                        yose 顔、loye 背中、reki 棒
+                                                                                        tsisa ありがとう、shaya こんにちは gule グレイシア、かわいい
+
+                                                                                        ・グレイシア語は単語数が少ないので、柔軟に考える必要がある。(例　トイレ→nonya lyusi、酒→lyusi ryewe など)
+                                                                                        また、動詞の単語が名詞として、名詞の単語が動詞として使われる可能性があることも考慮せよ。
+
+
+                                                                                        例：
+                                                                                        lesi gu sag. ...私は聞く 
+                                                                                        tsali gu hyawa sha nonya. ...あなたは家を良くする 
+                                                                                        lyash gu rak. ...ポケモンは食べる 
+                                                                                        kyasi gu koka sha rak. ...彼は食べ物を作る
+                                                                                        nonya gile...大きな家、tsol hyawa...良い人=友達、 koka ware...たくさん働く、rak liye...少し食べる
+                                                                                        tsol gile ware...たくさんの大きな人、tsol su gile ware...とても大きな人
+                                                                                        私は魚を食べたい → lesi gu newa rak sha lani.
+                                                                                        tsol gu tsasa la sha lani. ...人は魚を殺さない。 
+                                                                                        tsol gu tsasa sha lani la. ...人は魚ではないものを殺す。 
+                                                                                        tsol la gu tsasa sha lani. ...ゼロの人が魚を殺す。 = 誰も魚を殺さない。
+                                                                                        tsol hyawa lesi gu lea liye sha lyusi ryewe hyule. ...私の友人は冷たい(狂った水=)酒を少し持つ。 
+                                                                                        tsol gile ware gu koka sha nonya su lyusi ryewe. ...たくさんの(大きな人=)大人が(酒の建物=)バーを作る。
+                                                                                        gyuri lani gu rak sha lihi kak lyusi gile. 魚の集団が(大きな水=)湖で植物を食べる。
+                                                                                        kak la wosi...屋外ではない場所で=室内で
+                                                                                        nihi gu shao sha shao gule rosha tsol liye. 親は子どもにグレイシア語を話す。
+                                                                                        wari suse gu hyawa rosha lesi. (砂状の穀物=)パン粉は私にとって良い。=私はパン粉が好き。
+                                                                                        lesi gu rosha sha nonya...私は家を動かす
+                                                                                        lesi gu rosha nonya...私は家に行く
+                                                                                        tsol gu shuka sha soki yus yori. ...人は手で名前を書く。 
+                                                                                        lesi gu tsana siha tsali. ...私はあなたのように去る。
+                                                                                        rots shi gu nyola wik wosi rog. 男は他の国から来る。
+                                                                                        lesi gu rak la wik shi: lesi gu rak sha rak liye. 私はこの理由で食べない:私は少しの食べ物を食べる=私は食事を少ししか摂らないから、私は食べません。
+                                                                                        lesi gu uhu wakya sha ruha. 私は爬虫類を楽しむことができる。
+                                                                                        tsali gu hona tsero rak. あなたは食べ始める方法を知っている。
+                                                                                        kyasi gu ula la shao. 彼女は話そうとしない。
+                                                                                        lesi gu uhu la nyola soso glesh. 私は愛し続けるようになることができない。
+                                                                                        tsali gu rak la rak? あなたは食べますか？(rak. 食べます rak la 食べませんで答える！)
+                                                                                        tsali gu uhu la uhu soya? あなたは眠れますか？、uhu. 眠れます。、uhu la. 眠れません。 
+                                                                                        kyasi gu kak la kak nonya? 彼は家にいますか？、kak. います。、kak la. いません。
+                                                                                        woya gu hyawa rosha tsali. あなたは何が好きですか？ 
+                                                                                        tsali gu ula sha woya? あなたは何を見ますか？
+                                                                                        kyasi gu soya kak rik woya? いつ彼は寝ますか？
+                                                                                         kash gu nyola wik wosi woya? 鳥はどの国から来るの？
+                                                                                         lesi gu yag wik woya? 私はなぜ悪いの？
+                                                                                        tsali gu koka yus shagi woya? あなたはどうやって作ってるの？
+                                                                                        shea shao sha shao gule! グレイシア語を話しましょう。
+                                                                                        tsali shea ula sha shi! あなた、これを見て！
+                                                                                        lesi ware shea rak! (一緒に)食べよう！
+                                                                                        tsali shea! あなた！(呼びかけ)
+                                                                                        lesi gu newa sag na! 私は本当に聞きたい！
+                                                                                        rik shi...(この時間=)今
+                                                                                        rik nyola...(来る時間=)未来
+                                                                                        rik hus shelyo lesi gu liye. (終わった時間=)昔、私は小さかった。
+                                                                                        lesi shelyo lihi sale shi gu suwi. 私にとって、この赤い植物は甘い。
+                                                                                        lesi gu una shelyo lesi gu kak. 私が思うなら、私は存在する。
+                                                                                        uhu shelyo neni nasi shelyo kuno gu soya. (可能)(机の下)虫が寝ている。 = たぶん、机の下で、虫が寝ている
+                                                                                        tsali gu koka sha yai shelyo shea hyoa sha kyasi rosha ror kohu. それを作ったら、それを容器(の中に与える =)に入れてください。
+                                                                                        nyuro sale hiye...黄色と赤色がある服、nyuro su sale hiye...オレンジ色の服
+                                                                                        lesi gu lea sha huli yori ryu. 私は(5+2=)7個の果物を持っている。
+                                                                                        kaki keki ware ware yu 41番目の戦い
+                                                                                        lesi on tsali gu rak. 私とあなたは食べる。
+                                                                                        lesi gu yori sha yose sha loye. 私は前面と背面に触れる。 
+                                                                                        lesi gu rak gu soya. 私は食べて寝る。
+                                                                                        lesi elyu kyasi gu koka. 私か彼は作る。
+                                                                                        lesi tso gu ryu sha reki. 私も棒を分けたい。 
+                                                                                        tso shelyo 同様に
+                                                                                        gaso lesi gu hona sha shi gaso. だけど私はこれだけは知っている。
+
+                                                                                        翻訳してください：`));
+    </script>
+  </body>
+</html>
