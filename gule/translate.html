@@ -136,30 +136,44 @@
         }, 2000);
       }
       
-      function translateGule() {
+      async function translateGule() {
         const text = document.getElementById("input").value;
         const mode = document.querySelector('input[name="mode"]:checked').value;
-        const parsedata = parse(text);
-        showAST(parsedata);
-        console.log(parsedata);
-        /*
-        let url = "https://gule-translate.grandioso-sow.workers.dev/"; // Gemini
+        const output = document.getElementById("output");
 
+        // 構文解析は翻訳とは独立して実行
+        try {
+          const parsedata = parse(text);
+          showAST(parsedata);
+          console.log(parsedata);
+        } catch (error) {
+          console.error("構文解析エラー:", error);
+        }
 
-        document.getElementById("output").innerText = "翻訳中...";
+        // Gemini翻訳APIを呼び出す
+        const url = "https://gule-translate.grandioso-sow.workers.dev/";
 
-        const response = await fetch(url, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({ text, mode })
-        });
+        output.innerText = "翻訳中...";
 
-        const data = await response.json();
+        try {
+          const response = await fetch(url, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ text, mode })
+          });
 
-        document.getElementById("output").innerText = data.result;
-        */
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+
+          const data = await response.json();
+          output.innerText = data.result ?? "翻訳結果がありません。";
+        } catch (error) {
+          console.error("翻訳エラー:", error);
+          output.innerText = "翻訳に失敗しました。時間をおいて再試行してください。";
+        }
       }
       
       document.getElementById("prompt").addEventListener('click', () => copyToClipboard(`あなたはグレイシア語の翻訳者です。
