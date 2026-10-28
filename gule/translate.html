@@ -83,7 +83,17 @@
 
       <textarea id="input" placeholder="ここに日本語またはgule語を入力..."></textarea>
 
-    
+      <div class="radio-container">
+        <label>
+          <input type="radio" name="mode" value="japanese" checked>
+          gule語→日本語
+        </label>
+        <label>
+          <input type="radio" name="mode" value="gule">
+          日本語→gule語(苦手)
+        </label>
+      </div>
+      
       <div class="button-row">
         <button class="search-button" onclick="translateGule()">翻訳</button>
       </div>
@@ -92,10 +102,17 @@
 
     </div>
 
-    <h5 class="center">この翻訳機は一日に全ユーザー合計で500回しか使えません。使えなくなった場合、以下のプロンプトを他のAIに入力して翻訳してもらってください。</h5>
+    <h3 class="center">グレイシア語 構文解析結果</h3>
+
+    <div id="ast-view" class="ast-container"></div>
+
+    <script src="ast-viewer.js"></script>
+
+    <h5 class="center">この翻訳機は一日に全ユーザー合計で500回しか使えません。(特に気にする必要はありません。どんどん使ってください。)<br>使えなくなった場合、以下のプロンプトを他のAIに入力して翻訳してもらってください。</h5>
     <div class="container">
       <a class="center" id="prompt">クリックでコピー</a>
     </div>
+    <script src="/gule-parser.js"></script>
     <script>
       function copyToClipboard(text) {
         navigator.clipboard.writeText(text).then(() => {
@@ -119,9 +136,13 @@
         }, 2000);
       }
       
-      async function translateGule() {
+      function translateGule() {
         const text = document.getElementById("input").value;
-
+        const mode = document.querySelector('input[name="mode"]:checked').value;
+        const parsedata = parse(text);
+        showAST(parsedata);
+        console.log(parsedata);
+        /*
         let url = "https://gule-translate.grandioso-sow.workers.dev/"; // Gemini
 
 
@@ -132,13 +153,15 @@
           headers: {
             "Content-Type": "application/json"
           },
-          body: JSON.stringify({ text })
+          body: JSON.stringify({ text, mode })
         });
 
         const data = await response.json();
 
         document.getElementById("output").innerText = data.result;
+        */
       }
+      
       document.getElementById("prompt").addEventListener('click', () => copyToClipboard(`あなたはグレイシア語の翻訳者です。
                                                                                         ・説明は禁止
                                                                                         ・グレイシア語が入力されていたら日本語に、日本語はグレイシア語に翻訳すること。
@@ -296,6 +319,8 @@
                                                                                         gaso lesi gu hona sha shi gaso. だけど私はこれだけは知っている。
 
                                                                                         翻訳してください：`));
+
+                                                                          
     </script>
   </body>
 </html>
