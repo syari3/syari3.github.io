@@ -95,7 +95,10 @@
 
       const data = await response.json().catch(() => ({}));
       if (!response.ok) {
-        throw new Error(data.error || `翻訳APIエラー (${response.status})`);
+        const detail = data.detail ? `\n詳細: ${data.detail}` : "";
+        throw new Error(
+         `${data.error || `翻訳APIエラー (${response.status})`}${detail}`
+       );
       }
       if (typeof data.result !== "string") {
         throw new Error("翻訳APIから有効な翻訳結果が返りませんでした。");
