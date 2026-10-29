@@ -1,0 +1,4284 @@
+{
+  "_meta": {
+    "language": "グレイシア語（氷麗語／麗語／gule）",
+    "schemaVersion": 1,
+    "source": "ユーザーが確認・編集した単語一覧",
+    "notes": [
+      "ユーザー提供の意味は meaning に原文を保持。",
+      "senses には元の意味と、ユーザーが採用・修正済みとした追加解釈を格納。",
+      "文法語 gu、sha、su などの基本機能は翻訳プロンプト側でも定義する。"
+    ],
+    "entryCount": 116
+  },
+  "lesi": {
+    "meaning": "私",
+    "knownUsage": "",
+    "senses": [
+      {
+        "meaning": "私",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "私の（所有を表す修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "tsali": {
+    "meaning": "あなた",
+    "knownUsage": "",
+    "senses": [
+      {
+        "meaning": "あなた",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "あなたの（所有を表す修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kyasi": {
+    "meaning": "彼、彼女、それ",
+    "knownUsage": "",
+    "senses": [
+      {
+        "meaning": "彼",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "彼女",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "それ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "彼・彼女・それの（所有修飾）",
+        "partOfSpeech": "unspecified",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed",
+    "notes": "複数形はkyasi wareのように表現する"
+  },
+  "nawi": {
+    "meaning": "何か、もの",
+    "knownUsage": "",
+    "senses": [
+      {
+        "meaning": "何か",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "もの",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "物体・事柄（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "何らかの（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "lyash": {
+    "meaning": "ポケモン、動物",
+    "knownUsage": "",
+    "senses": [
+      {
+        "meaning": "ポケモン",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "動物",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "生き物（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "動物の／ポケモンの（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "rak": {
+    "meaning": "食べる、食べ物",
+    "knownUsage": "動詞・名詞の両方が明示",
+    "senses": [
+      {
+        "meaning": "食べる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "食べ物",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "食事をする（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "食事・食料（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "koka": {
+    "meaning": "作る、活動、働く",
+    "knownUsage": "動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "作る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "活動",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "働く",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "制作する／働く（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "制作・活動・仕事（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "sag": {
+    "meaning": "聞く、耳",
+    "knownUsage": "動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "聞く",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "耳",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "聴く／耳を傾ける（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "聴覚（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "hyawa": {
+    "meaning": "良くする、善",
+    "knownUsage": "動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "良くする",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "善",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "改善する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "良い／善い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "善良さ・改善（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "nonya": {
+    "meaning": "家、建物、部屋",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "家",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "建物",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "部屋",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "家庭的な／屋内の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "住む（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "tsol": {
+    "meaning": "人",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "人",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "人間の／人に関する（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gile": {
+    "meaning": "大きい、長い、重要な",
+    "knownUsage": "修飾語",
+    "senses": [
+      {
+        "meaning": "大きい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "長い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "重要な",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "大きさ・長さ・重要性（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "大きくする／延ばす（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "liye": {
+    "meaning": "小さい、短い、少ない",
+    "knownUsage": "修飾語",
+    "senses": [
+      {
+        "meaning": "小さい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "短い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "少ない",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "小ささ・短さ・少量（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "小さくする／減らす（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "ware": {
+    "meaning": "多い、たくさん、とても、増やす、量、20",
+    "knownUsage": "修飾語・動詞・名詞・数詞が示唆される",
+    "senses": [
+      {
+        "meaning": "多い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "たくさん",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "とても",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "増やす",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "量",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "20",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "多さ・量（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "増える（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "多くの（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "lase": {
+    "meaning": "青い、悲しい",
+    "knownUsage": "修飾語",
+    "senses": [
+      {
+        "meaning": "青い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "悲しい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "青さ・悲しみ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "青くする／悲しませる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shashe": {
+    "meaning": "新しい",
+    "knownUsage": "修飾語",
+    "senses": [
+      {
+        "meaning": "新しい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "新しさ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "新しくする（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "hyule": {
+    "meaning": "冷たい、寒い、寒さ",
+    "knownUsage": "修飾語・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "冷たい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "寒い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "寒さ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "冷たさ・寒さ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "冷やす（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "ryewe": {
+    "meaning": "狂った、変な、狂わす",
+    "knownUsage": "修飾語・動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "狂った",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "変な",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "狂わす",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "狂気・奇妙さ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "狂う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "la": {
+    "meaning": "無、ゼロ、～ない（否定する）",
+    "knownUsage": "否定・数詞／名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "無",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "ゼロ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～ない（否定する）",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "存在しない／欠けている（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "無・ゼロ（名詞／数詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "ula": {
+    "meaning": "見る、景色、視覚的に、～しようとする、してみる",
+    "knownUsage": "助動詞として指定あり",
+    "senses": [
+      {
+        "meaning": "見る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "景色",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "視覚的に",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～しようとする",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "してみる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "見る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "景色・視覚（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "視覚的な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～しようとする／試みる（助動詞・指定）",
+        "partOfSpeech": "auxiliary",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gasha": {
+    "meaning": "壊す、失敗、クソ！（感動詞）",
+    "knownUsage": "動詞・名詞・感動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "壊す",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "失敗",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "クソ！（感動詞）",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "壊れる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "壊れた／失敗した（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "失敗する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "tsasa": {
+    "meaning": "殺す、死、死んだ",
+    "knownUsage": "動詞・名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "殺す",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "死",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "死んだ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "死ぬ（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "死（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "死んだ（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "tsokya": {
+    "meaning": "音を立てる、音、うるさい",
+    "knownUsage": "動詞・名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "音を立てる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "音",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "うるさい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "鳴る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "音（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "騒音（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "騒がしい（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "lea": {
+    "meaning": "持つ、含む、所有する",
+    "knownUsage": "動詞",
+    "senses": [
+      {
+        "meaning": "持つ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "含む",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "所有する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "所有・所持（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "含まれた／所有された（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "hona": {
+    "meaning": "知る、知識、～する方法を知っている",
+    "knownUsage": "助動詞として指定あり",
+    "senses": [
+      {
+        "meaning": "知る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "知識",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～する方法を知っている",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "知る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "知識（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "知っている（状態を表す修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "方法を知っている（助動詞・指定）",
+        "partOfSpeech": "auxiliary",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "lani": {
+    "meaning": "魚、水生生物",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "魚",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "水生生物",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "魚の／水生の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "水中生物（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "lyusi": {
+    "meaning": "水、液体、水をかける",
+    "knownUsage": "名詞・動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "水",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "液体",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "水をかける",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "水／液体（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "水をかける／液体を注ぐ（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "液体の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kash": {
+    "meaning": "鳥",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "鳥",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "鳥の／鳥類の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "飛ぶ（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kak": {
+    "meaning": "真実、現実、存在する、～に、～で",
+    "knownUsage": "動詞・名詞・前置詞が明示／示唆",
+    "senses": [
+      {
+        "meaning": "真実",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "現実",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "存在する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～に",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～で",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "真実である（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "現実の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "存在（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～に／～で（前置詞・指定）",
+        "partOfSpeech": "preposition",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "rosha": {
+    "meaning": "動かす、移動、～へ、～のために",
+    "knownUsage": "動詞・名詞・前置詞が示唆される",
+    "senses": [
+      {
+        "meaning": "動かす",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "移動",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～へ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～のために",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "動く（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "移動（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～へ／～のために（前置詞・指定）",
+        "partOfSpeech": "preposition",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "wik": {
+    "meaning": "理由、～から、～だから",
+    "knownUsage": "名詞・前置詞が明示／示唆",
+    "senses": [
+      {
+        "meaning": "理由",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～から",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～だから",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "理由（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～から／～なので（前置詞・指定）",
+        "partOfSpeech": "preposition",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "yus": {
+    "meaning": "～を使って、～と",
+    "knownUsage": "前置詞",
+    "senses": [
+      {
+        "meaning": "～を使って",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～と",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "使う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "使用・道具立て（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～を使って／～と（前置詞・指定）",
+        "partOfSpeech": "preposition",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "siha": {
+    "meaning": "同じ、似た、～のような",
+    "knownUsage": "修飾語・前置詞が示唆される",
+    "senses": [
+      {
+        "meaning": "同じ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "似た",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～のような",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "同じもの／類似（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "似ている（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～のような（前置詞・指定）",
+        "partOfSpeech": "preposition",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "lihi": {
+    "meaning": "植物、草、葉",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "植物",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "草",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "葉",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "植物の／草の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "生える（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "nasi": {
+    "meaning": "水平面、机、椅子",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "水平面",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "机",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "椅子",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "平らな（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "置く／座る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gutsi": {
+    "meaning": "石、硬い",
+    "knownUsage": "名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "石",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "硬い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "硬さ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "硬くする／硬くなる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gyuri": {
+    "meaning": "集まり、グループ",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "集まり",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "グループ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "集まる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "集団の／集まった（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "wari": {
+    "meaning": "穀物、パン、米、麺",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "穀物",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "パン",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "米",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "麺",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "穀物の／主食の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "食料（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "suse": {
+    "meaning": "半固体の、砂状の、ゲルの",
+    "knownUsage": "修飾語",
+    "senses": [
+      {
+        "meaning": "半固体の",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "砂状の",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "ゲルの",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "半固体・砂・ゲル（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "固まる／粒状になる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "nihi": {
+    "meaning": "親",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "親",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "親の／親らしい（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "育てる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "rots": {
+    "meaning": "男、夫",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "男",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "夫",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "男性の／夫の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "wosi": {
+    "meaning": "土地、国、土、屋外",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "土地",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "国",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "土",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "屋外",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "土地の／屋外の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "埋める／土地を耕す（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shal": {
+    "meaning": "薄っぺらいもの、紙、本",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "薄っぺらいもの",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "紙",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "本",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "薄い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "紙・本に書く（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "geni": {
+    "meaning": "汚れ、不快、汚す、汚い",
+    "knownUsage": "名詞・動詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "汚れ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "不快",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "汚す",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "汚い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "汚れ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "汚す（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "汚い／不快な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "ish": {
+    "meaning": "上、空、高貴な、神聖な",
+    "knownUsage": "名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "上",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "空",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "高貴な",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "神聖な",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "上方（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "上の／高貴な／神聖な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "上げる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "yag": {
+    "meaning": "悪、悪くする",
+    "knownUsage": "名詞・動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "悪",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "悪くする",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "悪（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "悪い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "悪化させる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "soya": {
+    "meaning": "眠る、眠り",
+    "knownUsage": "動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "眠る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "眠り",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "眠る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "眠り（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "眠っている（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shao": {
+    "meaning": "話す、言う、言語",
+    "knownUsage": "動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "話す",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "言う",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "言語",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "話す／言う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "言葉・言語（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "口頭の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "nyola": {
+    "meaning": "来る、起こる、現れる、～になる",
+    "knownUsage": "助動詞として指定あり",
+    "senses": [
+      {
+        "meaning": "来る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "起こる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "現れる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～になる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "来る／起こる／現れる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "到来・発生（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～になる（助動詞・指定）",
+        "partOfSpeech": "auxiliary",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "rog": {
+    "meaning": "他の、変化する、違い",
+    "knownUsage": "修飾語・動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "他の",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "変化する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "違い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "他の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "変わる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "違い・変化（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "lyun": {
+    "meaning": "女、妻",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "女",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "妻",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "女性の／妻の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "yesi": {
+    "meaning": "道具、機械、アプリ",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "道具",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "機械",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "アプリ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "道具の／機械的な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed",
+    "notes": "使うの用法は、yusとかぶるので削除。"
+  },
+  "soki": {
+    "meaning": "名前、単語",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "名前",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "単語",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "名付ける（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "名前の／語の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "yori": {
+    "meaning": "手、腕、触る、5",
+    "knownUsage": "名詞・動詞・数詞が示唆される",
+    "senses": [
+      {
+        "meaning": "手",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "腕",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "触る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "5",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "手／腕（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "触る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "5（数詞）",
+        "partOfSpeech": "numeral",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "手の／腕の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kini": {
+    "meaning": "体",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "体",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "身体の／肉体的な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "体を動かす（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "huli": {
+    "meaning": "果物、野菜",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "果物",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "野菜",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "果実・野菜（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "植物性の／食用の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "rena": {
+    "meaning": "月、星",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "月",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "星",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "月・星（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "天体の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "sawi": {
+    "meaning": "太陽、光",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "太陽",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "光",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "日光・光（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "明るい／太陽の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "光る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shuka": {
+    "meaning": "書く、描く、絵、記号",
+    "knownUsage": "動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "書く",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "描く",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "絵",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "記号",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "書く／描く（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "絵・記号・文章（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "書かれた（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "tsana": {
+    "meaning": "去る、離す、遠くの",
+    "knownUsage": "動詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "去る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "離す",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "遠くの",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "去る／離す（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "遠く（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "遠い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "wan": {
+    "meaning": "鳴く、鳴き声",
+    "knownUsage": "動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "鳴く",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "鳴き声",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "鳴く（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "鳴き声（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "ene": {
+    "meaning": "丸い、円、球、循環",
+    "knownUsage": "修飾語・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "丸い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "円",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "球",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "循環",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "丸い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "円・球・循環（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "循環する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shi": {
+    "meaning": "これ、それ、あれ、この、その、あの",
+    "knownUsage": "指示語",
+    "senses": [
+      {
+        "meaning": "これ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "それ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "あれ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "この",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "その",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "あの",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "これ／それ／あれ（指示語）",
+        "partOfSpeech": "demonstrative",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "この／その／あの（修飾語的用法）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "uhu": {
+    "meaning": "～できる、可能性",
+    "knownUsage": "助動詞として指定あり",
+    "senses": [
+      {
+        "meaning": "～できる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "可能性",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～できる（助動詞・指定）",
+        "partOfSpeech": "auxiliary",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "可能性（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "newa": {
+    "meaning": "～したい、欲しい、欲求、必要",
+    "knownUsage": "助動詞として指定あり",
+    "senses": [
+      {
+        "meaning": "～したい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "欲しい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "欲求",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "必要",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～したい（助動詞・指定）",
+        "partOfSpeech": "auxiliary",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "欲する／欲しい（動詞・要確認）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "欲求・必要性（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "必要な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "soso": {
+    "meaning": "～し続ける、待たす、保つ、守る",
+    "knownUsage": "助動詞として指定あり",
+    "senses": [
+      {
+        "meaning": "～し続ける",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "待たす",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "保つ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "守る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～し続ける（助動詞・指定）",
+        "partOfSpeech": "auxiliary",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "待たせる／保つ／守る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "継続・保護（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "tsero": {
+    "meaning": "～し始める、開ける、始める",
+    "knownUsage": "助動詞として指定あり",
+    "senses": [
+      {
+        "meaning": "～し始める",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "開ける",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "始める",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～し始める（助動詞・指定）",
+        "partOfSpeech": "auxiliary",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "開ける／始める（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "始まり（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "hus": {
+    "meaning": "～し終える、閉じる、終える",
+    "knownUsage": "助動詞として指定あり",
+    "senses": [
+      {
+        "meaning": "～し終える",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "閉じる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "終える",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～し終える（助動詞・指定）",
+        "partOfSpeech": "auxiliary",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "閉じる／終える（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "終わり（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gasi": {
+    "meaning": "追求する、狩る、集める",
+    "knownUsage": "動詞",
+    "senses": [
+      {
+        "meaning": "追求する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "狩る",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "集める",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "追求・狩り・収集（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "追い求める（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "ruha": {
+    "meaning": "爬虫類、両生類",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "爬虫類",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "両生類",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "爬虫類・両生類の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "這う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shagi": {
+    "meaning": "道、方法、哲学",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "道",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "方法",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "哲学",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "道の／方法上の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "進む／導く（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "rik": {
+    "meaning": "時間、機会",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "時間",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "機会",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "時間的な／適時の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "時間を過ごす（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "laki": {
+    "meaning": "頭、思考、導く、支配する",
+    "knownUsage": "名詞・動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "頭",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "思考",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "導く",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "支配する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "頭・思考（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "考える／導く／支配する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "頭の／知的な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "wakya": {
+    "meaning": "楽しむ、面白い、芸術的、ゲーム",
+    "knownUsage": "動詞・修飾語・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "楽しむ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "面白い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "芸術的",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "ゲーム",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "楽しむ（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "面白い／芸術的な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "楽しみ・芸術・ゲーム（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "glesh": {
+    "meaning": "愛する",
+    "knownUsage": "動詞",
+    "senses": [
+      {
+        "meaning": "愛する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "愛（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "愛しい（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "hyoa": {
+    "meaning": "与える、置く",
+    "knownUsage": "動詞",
+    "senses": [
+      {
+        "meaning": "与える",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "置く",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "贈り物・配置（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "与えられた／置かれた（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "woya": {
+    "meaning": "何、どんな、何の",
+    "knownUsage": "疑問詞",
+    "senses": [
+      {
+        "meaning": "何",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "どんな",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "何の",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "何（疑問代名詞）",
+        "partOfSpeech": "interrogative_pronoun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "どんな／何の（疑問修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shea": {
+    "meaning": "勧誘、命令",
+    "knownUsage": "勧誘・命令の機能語",
+    "senses": [
+      {
+        "meaning": "勧誘",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "命令",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "命令・勧誘（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "命令する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "na": {
+    "meaning": "文末に置いて強調する",
+    "knownUsage": "文末強調の機能語",
+    "senses": [
+      {
+        "meaning": "文末に置いて強調する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "強調（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "強調する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "huhi": {
+    "meaning": "空気、精神、幽霊",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "空気",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "精神",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "幽霊",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "空気の／精神的な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "息をする（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gogi": {
+    "meaning": "黒、闇、暗い",
+    "knownUsage": "名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "黒",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "闇",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "暗い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "黒さ・闇（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "黒い／暗い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "暗くする（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kili": {
+    "meaning": "お金",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "お金",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "金銭的な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "支払う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "neni": {
+    "meaning": "下、下げる、負かす、身分の低い",
+    "knownUsage": "名詞・動詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "下",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "下げる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "負かす",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "身分の低い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "下方（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "下げる／負かす（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "低い身分の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kuno": {
+    "meaning": "虫",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "虫",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "虫の／昆虫の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "這う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "yai": {
+    "meaning": "長くて柔軟（紐、毛など）",
+    "knownUsage": "修飾語",
+    "senses": [
+      {
+        "meaning": "長くて柔軟（紐",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "毛など）",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "柔軟な長いもの（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "伸びる／垂れる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kohu": {
+    "meaning": "容器",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "容器",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "容器の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "入れる／収納する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "lsa": {
+    "meaning": "～のそば、～とともに、隣、腰",
+    "knownUsage": "前置詞的用法・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "～のそば",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～とともに",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "隣",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "腰",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "隣（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "腰（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed",
+    "notes": "kak lsaの形で使用し初めて前置詞的な意味を持つ"
+  },
+  "ror": {
+    "meaning": "内部、内容、腹",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "内部",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "内容",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "腹",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "内部の／内側の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "含む（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "keki": {
+    "meaning": "数、～番目の",
+    "knownUsage": "数詞・序数表現が示唆される",
+    "senses": [
+      {
+        "meaning": "数",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～番目の",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "数（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～番目の（序数修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "数える（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "ryu": {
+    "meaning": "2、分ける",
+    "knownUsage": "数詞・動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "2",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "分ける",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "2（数詞）",
+        "partOfSpeech": "numeral",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "分ける（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "二つ組・二分（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "ri": {
+    "meaning": "全て、宇宙、100",
+    "knownUsage": "限定語・名詞・数詞が示唆される",
+    "senses": [
+      {
+        "meaning": "全て",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "宇宙",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "100",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "すべて（限定語）",
+        "partOfSpeech": "determiner",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "宇宙（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "100（数詞）",
+        "partOfSpeech": "numeral",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "全体の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "sale": {
+    "meaning": "赤、怒った",
+    "knownUsage": "名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "赤",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "怒った",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "赤い／怒った（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "赤・怒り（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "赤くする／怒らせる（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "haha": {
+    "meaning": "火、化学反応、熱する",
+    "knownUsage": "名詞・動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "火",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "化学反応",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "熱する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "火・化学反応（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "熱する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "熱い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gotso": {
+    "meaning": "強い、自信、力",
+    "knownUsage": "修飾語・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "強い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "自信",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "力",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "強い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "自信・力（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "強める（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "suwi": {
+    "meaning": "甘い、スイーツ",
+    "knownUsage": "修飾語・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "甘い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "スイーツ",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "甘い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "甘さ・菓子（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "甘くする（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "una": {
+    "meaning": "感じる、考える、心臓",
+    "knownUsage": "動詞・名詞が示唆される",
+    "senses": [
+      {
+        "meaning": "感じる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "考える",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "心臓",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "感じる／考える（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "心臓（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "感情・思考（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kyakya": {
+    "meaning": "イチャイチャする、親密な",
+    "knownUsage": "動詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "イチャイチャする",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "親密な",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "親密な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "親密さ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "親しくする（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shelyo": {
+    "meaning": "文を接続する",
+    "knownUsage": "接続機能語",
+    "senses": [
+      {
+        "meaning": "文を接続する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "条件・視点・文接続の機能（詳細要確認）",
+        "partOfSpeech": "unspecified",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "noryo": {
+    "meaning": "色",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "色",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "色の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "色づく／色を付ける（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "sula": {
+    "meaning": "白、明るい",
+    "knownUsage": "名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "白",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "明るい",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "白い／明るい（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "白さ・明るさ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "明るくする（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "hiye": {
+    "meaning": "黄、幸せな",
+    "knownUsage": "名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "黄",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "幸せな",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "黄色い／幸せな（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "黄色・幸福（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "幸せにする（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "husia": {
+    "meaning": "表皮、皮膚、殻",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "表皮",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "皮膚",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "殻",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "皮膚の／表面の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "覆う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "nyuro": {
+    "meaning": "布、服",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "布",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "服",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "布の／衣服の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "着る（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "yu": {
+    "meaning": "1、合一する",
+    "knownUsage": "数詞・動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "1",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "合一する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "1（数詞）",
+        "partOfSpeech": "numeral",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "一つにする／合一する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "一体・単位（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kaki": {
+    "meaning": "戦い",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "戦い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "戦う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "戦闘的な（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "kyala": {
+    "meaning": "取引、売買、店",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "取引",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "売買",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "店",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "取引する／売買する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "商業の／店の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "yose": {
+    "meaning": "顔、前面",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "顔",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "前面",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "顔の／前面の（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "向き合う（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "loye": {
+    "meaning": "背中、背面",
+    "knownUsage": "名詞",
+    "senses": [
+      {
+        "meaning": "背中",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "背面",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "背面の／後ろの（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "背を向ける（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "reki": {
+    "meaning": "棒、枝、長くて堅い",
+    "knownUsage": "名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "棒",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "枝",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "長くて堅い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "棒・枝（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "長くて硬い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "突く／支える（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "on": {
+    "meaning": "A on B の形で主語を並立させる",
+    "knownUsage": "主語並立の機能語",
+    "senses": [
+      {
+        "meaning": "A on B の形で主語を並立させる",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "主語を並立させる接続機能（指定）",
+        "partOfSpeech": "unspecified",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "elyu": {
+    "meaning": "A elyu B の形でAまたはB",
+    "knownUsage": "選言の機能語",
+    "senses": [
+      {
+        "meaning": "A elyu B の形でAまたはB",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "「または」を表す接続機能（指定）",
+        "partOfSpeech": "unspecified",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "tso": {
+    "meaning": "「～も」の形、同様に",
+    "knownUsage": "助詞・副詞的機能語",
+    "senses": [
+      {
+        "meaning": "「～も」の形",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "同様に",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～も（添加）",
+        "partOfSpeech": "unspecified",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "同様に（副詞的機能）",
+        "partOfSpeech": "adverb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gaso": {
+    "meaning": "文頭「だけど」／「～だけ」",
+    "knownUsage": "逆接・限定の機能語",
+    "senses": [
+      {
+        "meaning": "文頭「だけど」／「～だけ」",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "しかし（接続機能）",
+        "partOfSpeech": "conjunction",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "～だけ（限定機能）",
+        "partOfSpeech": "unspecified",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "shaya": {
+    "meaning": "挨拶、こんにちは、おはよう、こんばんは",
+    "knownUsage": "挨拶表現",
+    "senses": [
+      {
+        "meaning": "挨拶",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "こんにちは",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "おはよう",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "こんばんは",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "挨拶する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "挨拶（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "tsisa": {
+    "meaning": "ありがとう、感謝する",
+    "knownUsage": "感謝表現・動詞が示唆される",
+    "senses": [
+      {
+        "meaning": "ありがとう",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "感謝する",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "感謝（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "感謝する（動詞）",
+        "partOfSpeech": "verb",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "ありがたい（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  },
+  "gule": {
+    "meaning": "グレイシア、グレイシアの、可愛い",
+    "knownUsage": "名詞・修飾語が示唆される",
+    "senses": [
+      {
+        "meaning": "グレイシア",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "グレイシアの",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "可愛い",
+        "partOfSpeech": "unspecified",
+        "source": "user_provided",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "グレイシア（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "グレイシアの／可愛い（修飾語）",
+        "partOfSpeech": "modifier",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      },
+      {
+        "meaning": "愛らしさ（名詞）",
+        "partOfSpeech": "noun",
+        "source": "reviewed_addition",
+        "status": "confirmed"
+      }
+    ],
+    "reviewStatus": "confirmed"
+  }
+}
