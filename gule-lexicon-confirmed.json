@@ -369,7 +369,8 @@
         "status": "confirmed"
       }
     ],
-    "reviewStatus": "confirmed"
+    "reviewStatus": "confirmed",
+    "notes": "gileを修飾語として使うときは、重要な、大きいという二つの意味を同時に表示することが望ましい。 (例) tso shelyo, shi gu nawi gile. (そして、これも重要な(大きい)ことである。), gaso, rik ri shelyo nawi su gile ware gu kak shao siha yai. (しかし、とても大切な(大きな)ことは(柔らかく長い)糸のような言葉として存在している。) "
   },
   "liye": {
     "meaning": "小さい、短い、少ない",
@@ -1803,7 +1804,8 @@
         "status": "confirmed"
       }
     ],
-    "reviewStatus": "confirmed"
+    "reviewStatus": "confirmed",
+    "notes": "言語として訳すことが多い。(例) lesi gu newa sha shi: shao gule gu shao hyawa.　(私はこれを望む：グレイシア語が良い言語であること), shao hyawa gu shi: tsol ware gu uhu shao. (良い言語とはこれだ：多くの人が話すことができる)"
   },
   "nyola": {
     "meaning": "来る、起こる、現れる、～になる",
@@ -2389,7 +2391,8 @@
         "status": "confirmed"
       }
     ],
-    "reviewStatus": "confirmed"
+    "reviewStatus": "confirmed",
+    "notes": "非常に用例が多いので、いろいろな場合を考えて訳す。(例) shi tso gu hyawa shi: soki su siha reki gu kak shao gule. (これも良い(ことだ)：棒のような(固い)言葉がグレイシア語に存在すること) この例では、hyawaのあとのshi: によって、最初のshiの説明がこれから始まることを表している。"
   },
   "uhu": {
     "meaning": "～できる、可能性",
